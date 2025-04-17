@@ -1,7 +1,6 @@
 <template>
   <form @submit.prevent="submit" ref="formRef" class="custom-form">
     <div class="form-group">
-      <label for="name">Имя</label>
       <input
         id="name"
         v-model="name"
@@ -12,7 +11,6 @@
     </div>
 
     <div class="form-group">
-      <label for="email">Email</label>
       <input
         id="email"
         v-model="email"

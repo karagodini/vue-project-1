@@ -9,7 +9,7 @@
             @click="prev"
             :disabled="currentIndex === 0"
           >
-            <v-icon>mdi-chevron-left</v-icon>
+            <i class="mdi mdi-chevron-left"></i>
           </v-btn>
 
           <div class="carousel-track">
@@ -27,7 +27,7 @@
             @click="next"
             :disabled="currentIndex === total - 1"
           >
-            <v-icon>mdi-chevron-right</v-icon>
+            <i class="mdi mdi-chevron-right"></i>
           </v-btn>
         </div>
       </v-col>
